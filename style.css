@@ -1,0 +1,90 @@
+*{
+
+	/*Default Font*/
+	font-family: 'Harmattan', sans-serif;
+
+}
+
+h1, h2 {
+
+	font-family: 'Nerko One', cursive;
+
+}
+
+img {
+
+	height: 250px;
+	width:  250px;
+
+}
+
+#landing {
+
+	height:  80vh;
+	/*center the content, (image heading and paragraph) horizontally and vertically using flexbox*/
+	display:  flex;
+	flex-direction:  column;
+	align-items:  center;
+	justify-content:  center;
+
+}
+
+#PeopleIlove {
+
+	height:  80vh;
+	display:  flex;
+	flex-direction:  column;
+	align-items:  center;
+	
+	color: white;
+	border-radius:  6px;
+
+}
+
+#ThingsIlove {
+
+	height:  400vh;
+	display:  flex;
+	flex-direction:  column;
+	align-items:  center;
+	
+	color: white;
+	border-radius:  6px;
+
+}
+
+ul {
+
+	list-style:  none;
+	padding: 0;
+}
+
+h2 {
+
+	color:  #007bff;
+}
+
+.tools{
+
+	padding:  25px;
+	border:  5px solid #f2f2f2;
+	margin:  20px;
+	height:  700px;
+	width:  75%;
+
+}
+
+.love{
+
+	padding:  25px;
+	border:  5px solid #f2f2f2;
+	margin:  20px;
+	height:  3500px;
+	width:  75%;
+
+}
+
+html {
+
+	scroll-behavior: smooth;
+}
